@@ -15,7 +15,8 @@ public class TaskService {
         System.out.println("\nВыберите повторяемость задачи:");
         System.out.println("1. Однократная.\n" + "2. Ежедневная. \n" + "3. Еженедельная. \n" + "4. Ежемесячная. \n" + "5. Ежегодная.");
         String timeChoice = NewData.choiceTime();
-        task.put(numberTask, new Task(title, description, type, timeChoice));
+        System.out.println("Повторение задачи ");
+        task.put(numberTask, new Task(title, description, type, timeChoice ));
     }
     public void removeTask() {
         Scanner scanner = new Scanner(System.in);

@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public class Task {
 
     private final String title;
@@ -7,6 +9,7 @@ public class Task {
     private static int generId = 0;
     private final String description;
     private final NewData newData = new NewData();
+    private TaskRepeat repeat;
 
     public NewData getNewData() {
         return newData;
@@ -17,6 +20,7 @@ public class Task {
         this.id = generId++;
         this.description = description;
         this.timeChoice = timeChoice;
+
     }
     public String getTimeChoice() {
         return timeChoice;

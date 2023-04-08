@@ -24,6 +24,8 @@ public class NewData {
                     return choiceTime.mothlyTask();
                 case (5):
                     return choiceTime.yearlyTask();
+                case (6):
+                    return choiceTime.repeatingTask();
                 default:
                     System.out.println("Попробуйте еще!");
                     break repeat;
