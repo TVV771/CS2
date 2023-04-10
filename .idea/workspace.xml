@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da9f414d-dd3b-4a1c-a72e-b0b36c3fcd65" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/TaskRepeat.java" afterDir="false" />
+    <list default="true" id="da9f414d-dd3b-4a1c-a72e-b0b36c3fcd65" name="Changes" comment="Выполнено относительно">
+      <change afterPath="$PROJECT_DIR$/src/DailyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MounthlyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OncelyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WeeklyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/YearlyTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LocalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LocalData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskRepeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +61,8 @@
       <workItem from="1680530995747" duration="1368000" />
       <workItem from="1680586974879" duration="1233000" />
       <workItem from="1680745476851" duration="937000" />
-      <workItem from="1680920946341" duration="3693000" />
+      <workItem from="1680920946341" duration="4007000" />
+      <workItem from="1681106090154" duration="1964000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1680531047451</created>
@@ -65,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680531047451</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Выполнено относительно">
+      <created>1680925383403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680925383403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Выполнено относительно" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнено относительно" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 
-public class Task {
+public abstract class Task {
 
     private final String title;
     private final String type;
@@ -9,7 +9,7 @@ public class Task {
     private static int generId = 0;
     private final String description;
     private final NewData newData = new NewData();
-    private TaskRepeat repeat;
+
 
     public NewData getNewData() {
         return newData;
@@ -46,5 +46,7 @@ public class Task {
     public String toString() {
         return "Название - " + getTitle() + ", описание - " + getDescription() + ", тип задачи: " + getType() + ", создано: " + getNewData().dataNow() + " " + getTimeChoice();
     }
+
+    public abstract boolean checkOccurance(LocalData requestedDate);
 }
 
